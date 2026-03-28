@@ -1,0 +1,5 @@
+[2026-03-27 10:15:01] [INFO] System boot initiated.
+[2026-03-27 10:15:04] [WARNING] Screen drivers delayed.
+[2026-03-27 10:15:05] [ERROR] Touch sensor failed to initialize.
+[2026-03-27 10:15:07] [INFO] Swipe gesture registered. Latency: 85ms.
+[2026-03-27 10:15:10] [FATAL] Camera sensor TIMEOUT.
