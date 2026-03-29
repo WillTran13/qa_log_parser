@@ -4,7 +4,7 @@ import argparse
 
 
 def check_line_for_anomalies(line):
-    if re.search(r"(ERROR|FATAL|TIMEOUT)", line):
+    if re.search(r"(ERROR|FATAL)", line):
         return True, "Critical Error Flag"
 
     latency_match = re.search(r"Latency:\s*(\d+)ms", line)
