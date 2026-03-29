@@ -10,7 +10,7 @@ def check_line_for_anomalies(line):
     latency_match = re.search(r"Latency:\s*(\d+)ms", line)
     if latency_match:
         latency_val = int(latency_match.group(1))
-        if latency_val > 50:
+        if latency_val > 100:
             return True, f"High Latency ({latency_val}ms)"
 
     return False, None
